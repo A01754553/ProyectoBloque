@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MenuRegistro/UI/menu_registro.uss?fileID=7433441132597879392&amp;guid=8f60c57d34f52bd4ca4e09a53ec11e36&amp;type=3#menu_registro"/>
+    <ui:VisualElement name="MenuRegistro" class="menu_registro" style="flex-grow: 1;">
+        <ui:Label text="N" name="Titulo" class="titulo" style="font-size: 88px; position: absolute; top: 336px; left: 797px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(226, 5, 5);"/>
+        <ui:Label text="ombre" name="Titulo_2" style="font-size: 68px; position: absolute; top: 355px; left: 866px; color: rgb(255, 255, 255); -unity-font-style: bold;"/>
+        <ui:TextField label="" placeholder-text="Escribe tu nombre aquí" name="Espacio_texto" style="position: absolute; font-size: 30px; top: 479px; left: 188px; height: 68px; width: 1572px;"/>
+        <ui:VisualElement name="Botones" class="botones" style="flex-grow: 1;">
+            <ui:Button text="¡Listo!" name="BotonListo" class="boton_listo"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
