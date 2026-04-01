@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MenuNiveles/NivelesUi.uss?fileID=7433441132597879392&amp;guid=cade7d0454dfd4c5399673cbd04920c2&amp;type=3#NivelesUi"/>
+    <ui:VisualElement class="container" style="flex-grow: 1;">
+        <ui:Button text="1" name="btn-1" class="btn"/>
+        <ui:Button text="🔒" name="btn-2" class="btn"/>
+        <ui:Button text="🔒" name="btn-3" class="btn"/>
+        <ui:Button text="🔒" name="btn-4" class="btn"/>
+        <ui:Button text="🔒" name="btn-5" class="btn"/>
+    </ui:VisualElement>
+    <ui:Button text="▶️" name="btn-play" style="background-image: url(&quot;project://database/Assets/MenuInicio/Buttons/PNG/30button_red.png?fileID=21300000&amp;guid=8fc9feebf624bba43a9df1301ccf1d8e&amp;type=3#30button_red&quot;); background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); position: relative; align-items: center; align-self: center; height: 20%; width: 20%; bottom: 60px; -unity-text-align: middle-center; color: rgba(27, 27, 27, 0.94); font-size: 80%;"/>
+</ui:UXML>
