@@ -1,0 +1,42 @@
+:root {
+}
+
+.container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-left-color: rgb(255, 251, 251);
+    border-right-color: rgb(255, 251, 251);
+    border-top-color: rgb(255, 251, 251);
+    border-bottom-color: rgb(255, 251, 251);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 15%;
+    height: 32%;
+    background-color: rgb(255, 146, 73);
+    -unity-font-style: bold;
+    color: rgb(255, 249, 249);
+    font-size: 400%;
+}
+
+.btnlocked {
+    background-color: rgb(106, 101, 101);
+    -unity-text-auto-size: none;
+}
+
+.btn:hover {
+    scale: 1.1 1.1;
+}
+
+.btn:hover {
+    scale: 1.1 1.1;
+}
