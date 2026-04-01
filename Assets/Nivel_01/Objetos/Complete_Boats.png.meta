@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: ab5a2748d94916b47b3cb50655d78897
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3141763656108019595
+    second: Complete_Boats_0
+  - first:
+      213: -8769004448315576709
+    second: Complete_Boats_1
+  - first:
+      213: 7700862881209058282
+    second: Complete_Boats_2
+  - first:
+      213: 1884773297809207247
+    second: Complete_Boats_3
+  - first:
+      213: -2703768417443015488
+    second: Complete_Boats_4
+  - first:
+      213: 3858182753978131270
+    second: Complete_Boats_5
+  - first:
+      213: 1935844956532324723
+    second: Complete_Boats_6
+  - first:
+      213: -5193876233516581308
+    second: Complete_Boats_7
+  - first:
+      213: 9039171373724905009
+    second: Complete_Boats_8
+  - first:
+      213: 7929690290479845296
+    second: Complete_Boats_9
+  - first:
+      213: -2671261558368102645
+    second: Complete_Boats_10
+  - first:
+      213: -8170804781681155083
+    second: Complete_Boats_11
+  - first:
+      213: 2107674438623792733
+    second: Complete_Boats_12
+  - first:
+      213: -5507162411318476207
+    second: Complete_Boats_13
+  - first:
+      213: -7529083160598176235
+    second: Complete_Boats_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Complete_Boats_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 335
+        width: 191
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f0d824669c99b20800000000000000
+      internalID: 3141763656108019595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 336
+        width: 160
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e64581aec3e4680800000000000000
+      internalID: -8769004448315576709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 331
+        width: 153
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae305725df5feda60800000000000000
+      internalID: 7700862881209058282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 247
+        width: 160
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf2f02145f082a10800000000000000
+      internalID: 1884773297809207247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 238
+        width: 205
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4936313f84a7ad0800000000000000
+      internalID: -2703768417443015488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_5
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 246
+        width: 158
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643a761f5c40b8530800000000000000
+      internalID: 3858182753978131270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 153
+        width: 173
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379375e3bb08dda10800000000000000
+      internalID: 1935844956532324723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_7
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 148
+        width: 126
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e76ed7515abe7b0800000000000000
+      internalID: -5193876233516581308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_8
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 152
+        width: 199
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ea0ca0976917d70800000000000000
+      internalID: 9039171373724905009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 87
+        width: 189
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf4aee4e4beb0e60800000000000000
+      internalID: 7929690290479845296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 86
+        width: 160
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07105ff3c5cdead0800000000000000
+      internalID: -2671261558368102645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 75
+        width: 175
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3e4d287587b9e80800000000000000
+      internalID: -8170804781681155083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 28
+        width: 155
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e87582cb6ff3d10800000000000000
+      internalID: 2107674438623792733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 28
+        width: 137
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1528af017f0a293b0800000000000000
+      internalID: -5507162411318476207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Complete_Boats_14
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 28
+        width: 174
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e9b2891c2538790800000000000000
+      internalID: -7529083160598176235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a1f7bcf6a98e9e548bb562d5cfa5975f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Complete_Boats_0: 3141763656108019595
+      Complete_Boats_1: -8769004448315576709
+      Complete_Boats_10: -2671261558368102645
+      Complete_Boats_11: -8170804781681155083
+      Complete_Boats_12: 2107674438623792733
+      Complete_Boats_13: -5507162411318476207
+      Complete_Boats_14: -7529083160598176235
+      Complete_Boats_2: 7700862881209058282
+      Complete_Boats_3: 1884773297809207247
+      Complete_Boats_4: -2703768417443015488
+      Complete_Boats_5: 3858182753978131270
+      Complete_Boats_6: 1935844956532324723
+      Complete_Boats_7: -5193876233516581308
+      Complete_Boats_8: 9039171373724905009
+      Complete_Boats_9: 7929690290479845296
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
