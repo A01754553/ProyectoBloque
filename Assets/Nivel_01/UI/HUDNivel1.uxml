@@ -1,0 +1,3 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="0" name="LabelSilaba" style="align-self: center; align-content: auto; justify-content: flex-start; align-items: flex-end; -unity-font-definition: url(&quot;project://database/Assets/Nivel_01/Fonts/LilitaOne-Regular.ttf?fileID=12800000&amp;guid=84bcf56911849d342a79090db98223eb&amp;type=3#LilitaOne-Regular&quot;); font-size: 58px; -unity-font-style: normal; -unity-text-align: middle-center; top: auto;"/>
+</ui:UXML>
