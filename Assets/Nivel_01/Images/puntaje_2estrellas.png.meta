@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: bd20cca683d0a33498dca46ed0c0e78d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3020714055392468369
+    second: puntaje_2estrellas_0
+  - first:
+      213: -8411943137260619497
+    second: puntaje_2estrellas_1
+  - first:
+      213: 5472926715625041317
+    second: puntaje_2estrellas_2
+  - first:
+      213: 7236175334165168092
+    second: puntaje_2estrellas_3
+  - first:
+      213: -7712258664808201450
+    second: puntaje_2estrellas_4
+  - first:
+      213: -2629951252150674826
+    second: puntaje_2estrellas_5
+  - first:
+      213: 1902816297655033784
+    second: puntaje_2estrellas_6
+  - first:
+      213: -4645803904593703641
+    second: puntaje_2estrellas_7
+  - first:
+      213: -5662612591597130175
+    second: puntaje_2estrellas_8
+  - first:
+      213: -8566308979582072952
+    second: puntaje_2estrellas_9
+  - first:
+      213: 2123910356439696557
+    second: puntaje_2estrellas_10
+  - first:
+      213: -4897745321304542168
+    second: puntaje_2estrellas_11
+  - first:
+      213: 1027140252636827238
+    second: puntaje_2estrellas_12
+  - first:
+      213: 1056437505651958172
+    second: puntaje_2estrellas_13
+  - first:
+      213: 8759843923307290580
+    second: puntaje_2estrellas_14
+  - first:
+      213: 5105386723198794919
+    second: puntaje_2estrellas_15
+  - first:
+      213: 1474153044832304233
+    second: puntaje_2estrellas_16
+  - first:
+      213: -6767708967413283124
+    second: puntaje_2estrellas_17
+  - first:
+      213: -8787665442146449678
+    second: puntaje_2estrellas_18
+  - first:
+      213: -7039352178612062039
+    second: puntaje_2estrellas_19
+  - first:
+      213: -7176181969373846970
+    second: puntaje_2estrellas_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: puntaje_2estrellas_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 1403
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d92bfcd6bbbe920800000000000000
+      internalID: 3020714055392468369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_1
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 837
+        width: 139
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719bbc8f846c24b80800000000000000
+      internalID: -8411943137260619497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_2
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 889
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad639ed9ddb3fb40800000000000000
+      internalID: 5472926715625041317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_3
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 854
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfbb55a02f0c6460800000000000000
+      internalID: 7236175334165168092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_4
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 805
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613cd2c0b9d88f490800000000000000
+      internalID: -7712258664808201450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_5
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 834
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a17fe2549808bd0800000000000000
+      internalID: -2629951252150674826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_6
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 824
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf5d865759286a10800000000000000
+      internalID: 1902816297655033784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_7
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 807
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dc19a96f9c68fb0800000000000000
+      internalID: -4645803904593703641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 778
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ee23989db5a61b0800000000000000
+      internalID: -5662612591597130175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_9
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 801
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88785cb8e5b5e1980800000000000000
+      internalID: -8566308979582072952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_10
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 784
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da48c5a5735a97d10800000000000000
+      internalID: 2123910356439696557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_11
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 789
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824bf436496b70cb0800000000000000
+      internalID: -4897745321304542168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_12
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 789
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e4ce42e92214e00800000000000000
+      internalID: 1027140252636827238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 787
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91e8cb605839ae00800000000000000
+      internalID: 1056437505651958172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_14
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 784
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df5898f2a7319970800000000000000
+      internalID: 8759843923307290580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_15
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 783
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac724ddc2af9d640800000000000000
+      internalID: 5105386723198794919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_16
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 787
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c3ac5426e357410800000000000000
+      internalID: 1474153044832304233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_17
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 791
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc60b1e0d844412a0800000000000000
+      internalID: -6767708967413283124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_18
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 779
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f682e3e6d0fb0680800000000000000
+      internalID: -8787665442146449678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_19
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 145
+        width: 1010
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8b4f85d723f4e90800000000000000
+      internalID: -7039352178612062039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puntaje_2estrellas_20
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 508
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642a8e71584196c90800000000000000
+      internalID: -7176181969373846970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      puntaje_2estrellas_0: 3020714055392468369
+      puntaje_2estrellas_1: -8411943137260619497
+      puntaje_2estrellas_10: 2123910356439696557
+      puntaje_2estrellas_11: -4897745321304542168
+      puntaje_2estrellas_12: 1027140252636827238
+      puntaje_2estrellas_13: 1056437505651958172
+      puntaje_2estrellas_14: 8759843923307290580
+      puntaje_2estrellas_15: 5105386723198794919
+      puntaje_2estrellas_16: 1474153044832304233
+      puntaje_2estrellas_17: -6767708967413283124
+      puntaje_2estrellas_18: -8787665442146449678
+      puntaje_2estrellas_19: -7039352178612062039
+      puntaje_2estrellas_2: 5472926715625041317
+      puntaje_2estrellas_20: -7176181969373846970
+      puntaje_2estrellas_3: 7236175334165168092
+      puntaje_2estrellas_4: -7712258664808201450
+      puntaje_2estrellas_5: -2629951252150674826
+      puntaje_2estrellas_6: 1902816297655033784
+      puntaje_2estrellas_7: -4645803904593703641
+      puntaje_2estrellas_8: -5662612591597130175
+      puntaje_2estrellas_9: -8566308979582072952
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
