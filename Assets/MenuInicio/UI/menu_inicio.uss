@@ -1,42 +1,27 @@
-:root {
+.header {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/MenuInicio/Fonts/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf?fileID=12800000&guid=af139908618e8c84a93f1f987531b60a&type=3#NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght");
+    -unity-text-align: upper-center;
 }
 
-.menu_inicio {
-}
-
-.botones {
-    flex-direction: row;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: space-around;
+.button {
+    font-size: 30px;
+    width: 220px;
+    height: 60px;
     align-self: center;
-    align-content: auto;
-    width: 80px;
-    top: 100px;
-    border-left-color: rgba(0, 0, 0, 0);
-    border-right-color: rgba(0, 0, 0, 0);
-    border-top-color: rgba(0, 0, 0, 0);
-    border-bottom-color: rgba(0, 0, 0, 0);
-}
-
-.boton_jugar {
-    width: 270px;
-    height: 100px;
-    font-size: 38px;
-    color: rgb(243, 243, 243);
-    -unity-font-style: bold;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url("project://database/Assets/MenuInicio/Buttons/PNG/20bttn-midl.png?fileID=2800000&guid=7e43ca8be54e1c54aa7cf14635191ad0&type=3#20bttn-midl");
-    border-left-color: rgba(0, 0, 0, 0);
-    border-right-color: rgba(0, 0, 0, 0);
-    border-top-color: rgba(0, 0, 0, 0);
-    border-bottom-color: rgba(0, 0, 0, 0);
-}
-
-.boton_jugar:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url("project://database/Assets/RPG%20Button%207/PNG/Blue/Pressed.png?fileID=21300000&guid=205a88e21a876fe4aacaa68a5b32ed4f&type=3#Pressed");
+    margin-top: 350px;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
     transition-duration: 0.35s;
-    transition-timing-function: ease-in-out;
-    scale: 1.15 1.15;
 }
 
-
+.button:hover {
+    scale: 1.1 1.1;
+    background-color: rgb(123, 237, 255);
+}
