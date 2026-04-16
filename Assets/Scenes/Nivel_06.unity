@@ -403,7 +403,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 31, y: 124}
-  m_SizeDelta: {x: 600, y: 50}
+  m_SizeDelta: {x: 1100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &319112081
 MonoBehaviour:
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AS
+  m_text: 'PATO
 
 '
   m_isRightToLeft: 0
@@ -736,7 +736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AR
+  silaba: LUNA
 --- !u!58 &368667800
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2153,7 +2153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AS
+  silaba: PATO
 --- !u!58 &903116547
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2873,12 +2873,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   silabas:
-  - AM
-  - AN
-  - AL
-  - AS
-  - AR
-  - EN
+  - MESA
+  - MISA
+  - PATO
+  - PATA
+  - LATA
+  - LUNA
   audiosSilabas:
   - {fileID: 8300000, guid: 8e16add826c314549b6026433f315b20, type: 3}
   - {fileID: 8300000, guid: 8a61310283251a741b18acae27ca473e, type: 3}
@@ -3261,7 +3261,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 32, y: 110}
-  m_SizeDelta: {x: 450, y: 50}
+  m_SizeDelta: {x: 1100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1068188246
 MonoBehaviour:
@@ -3283,7 +3283,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AL
+  m_text: 'LATA
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -3592,7 +3594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: EN
+  silaba: MESA
 --- !u!58 &1160504145
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3836,7 +3838,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 32, y: 110}
-  m_SizeDelta: {x: 500, y: 50}
+  m_SizeDelta: {x: 1100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264005350
 MonoBehaviour:
@@ -3858,7 +3860,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AN
+  m_text: 'MISA
 
 '
   m_isRightToLeft: 0
@@ -4213,7 +4215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AL
+  silaba: LATA
 --- !u!1001 &1328438843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4823,7 +4825,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 31, y: 124}
-  m_SizeDelta: {x: 550, y: 50}
+  m_SizeDelta: {x: 1100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1366339196
 MonoBehaviour:
@@ -4845,7 +4847,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AM
+  m_text: 'PATA
 
 '
   m_isRightToLeft: 0
@@ -4985,7 +4987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AM
+  silaba: PATA
 --- !u!1001 &1427342611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5065,7 +5067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AN
+  silaba: MISA
 --- !u!4 &1480091295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2998631548613261742, guid: 6c866c5eed16a4d409202b2e1f2e9b14, type: 3}
@@ -5461,7 +5463,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 32, y: 110}
-  m_SizeDelta: {x: 450, y: 50}
+  m_SizeDelta: {x: 1100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1735840140
 MonoBehaviour:
@@ -5483,7 +5485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AR
+  m_text: 'LUNA
 
 '
   m_isRightToLeft: 0
@@ -5928,7 +5930,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 31, y: 124}
-  m_SizeDelta: {x: 550, y: 50}
+  m_SizeDelta: {x: 1100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1863190569
 MonoBehaviour:
@@ -5950,7 +5952,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'EN
+  m_text: 'MESA
 
 '
   m_isRightToLeft: 0

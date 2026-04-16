@@ -425,9 +425,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AS
-
-'
+  m_text: BA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -736,7 +734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AR
+  silaba: LA
 --- !u!58 &368667800
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2153,7 +2151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AS
+  silaba: BA
 --- !u!58 &903116547
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2873,12 +2871,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   silabas:
-  - AM
-  - AN
-  - AL
-  - AS
-  - AR
-  - EN
+  - PA
+  - BA
+  - MA
+  - TA
+  - DA
+  - LA
   audiosSilabas:
   - {fileID: 8300000, guid: 8e16add826c314549b6026433f315b20, type: 3}
   - {fileID: 8300000, guid: 8a61310283251a741b18acae27ca473e, type: 3}
@@ -3283,7 +3281,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AL
+  m_text: TA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -3592,7 +3590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: EN
+  silaba: MA
 --- !u!58 &1160504145
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3858,9 +3856,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AN
-
-'
+  m_text: DA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -4213,7 +4209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AL
+  silaba: TA
 --- !u!1001 &1328438843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4823,7 +4819,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 31, y: 124}
-  m_SizeDelta: {x: 550, y: 50}
+  m_SizeDelta: {x: 450, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1366339196
 MonoBehaviour:
@@ -4845,9 +4841,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AM
-
-'
+  m_text: PA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -4985,7 +4979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AM
+  silaba: PA
 --- !u!1001 &1427342611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5065,7 +5059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AN
+  silaba: DA
 --- !u!4 &1480091295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2998631548613261742, guid: 6c866c5eed16a4d409202b2e1f2e9b14, type: 3}
@@ -5483,9 +5477,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AR
-
-'
+  m_text: LA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -5950,9 +5942,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'EN
-
-'
+  m_text: MA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
