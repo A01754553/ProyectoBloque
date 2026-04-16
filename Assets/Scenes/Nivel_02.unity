@@ -2845,6 +2845,7 @@ MonoBehaviour:
   - T
   - L
   - P
+  idPreguntas: 060000000700000008000000090000000a000000
   audiosSilabas:
   - {fileID: 8300000, guid: 8e16add826c314549b6026433f315b20, type: 3}
   - {fileID: 8300000, guid: 8a61310283251a741b18acae27ca473e, type: 3}
@@ -4811,7 +4812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: O
+  silaba: P
 --- !u!1 &1471344378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8007862676013868147, guid: 4af2231b1bfb61f429a9aabf866233ee, type: 3}

@@ -1,10 +1,6 @@
 :root {
 }
 
-
-
-
-
 .menu {
     align-items: stretch;
     justify-content: center;
@@ -36,4 +32,8 @@
     font-size: 42px;
     background-color: rgba(0, 0, 0, 0);
     transition-duration: 0.35s;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
 }
