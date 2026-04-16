@@ -7,11 +7,13 @@ public class ControladorInterfaz : MonoBehaviour
     private VisualElement root;
 
     [Header("Configuración de Niveles")]
-    [SerializeField] private int totalNiveles = 8; 
+    [SerializeField] private int totalNiveles = 8;
 
     void OnEnable()
     {
         root = GetComponent<UIDocument>().rootVisualElement;
+
+        //PlayerPrefs.DeleteAll();
 
         // 1. Leemos el progreso (basado en tu GameManager)
         int nivelCompletado = PlayerPrefs.GetInt("nivelCompletado", 0);

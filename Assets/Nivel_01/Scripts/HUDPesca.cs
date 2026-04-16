@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class HUDPesca : MonoBehaviour
 {
@@ -67,5 +68,7 @@ public class HUDPesca : MonoBehaviour
         AnzueloMovimiento anzuelo = FindAnyObjectByType<AnzueloMovimiento>();
         if (anzuelo != null)
             anzuelo.enabled = true;
+        
+        SceneManager.LoadScene("MenuNiveles");
     }
 }
