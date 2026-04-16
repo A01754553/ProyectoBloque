@@ -1,0 +1,39 @@
+:root {
+}
+
+
+
+
+
+.menu {
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.titulo {
+    font-size: 85px;
+    -unity-text-align: upper-center;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.botones {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-self: auto;
+    position: absolute;
+}
+
+.boton-juego {
+    width: 400px;
+    height: 300px;
+    font-size: 42px;
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.35s;
+}
