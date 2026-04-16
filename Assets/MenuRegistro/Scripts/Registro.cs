@@ -1,17 +1,45 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+using UnityEngine.Networking;
 
 public class Registro : MonoBehaviour
 {
-    // componentes
     private UIDocument menu;
     private Button botonListo;
     private Label labelMensaje;
     private TextField[] pinFields;
 
-    // pines validos hardcodeados (luego se reemplaza con BD)
-    private string[] pinesValidos = { "1111", "2222", "3333" };
+    // url base de la api
+    private string urlBase = "https://ampi8wp2ei.execute-api.us-east-1.amazonaws.com";
+
+    // estructuras de datos
+    public struct PinLogin
+    {
+        public string pin;
+    }
+
+    public struct RespuestaLogin
+    {
+        public bool exito;
+        public string mensaje;
+        public int id_alumno;
+        public string nombre;
+        public int id_partida;
+        public int ultimo_nivel;
+    }
+
+    public struct DatosPartida
+    {
+        public int id_alumno;
+    }
+
+    public struct RespuestaPartida
+    {
+        public bool exito;
+        public int id_partida;
+    }
 
     void OnEnable()
     {
@@ -28,7 +56,7 @@ public class Registro : MonoBehaviour
         pinFields[2] = root.Q<TextField>("Pin3");
         pinFields[3] = root.Q<TextField>("Pin4");
 
-        // configurar campos
+        // configurar campos y callbacks
         for (int i = 0; i < pinFields.Length; i++)
         {
             pinFields[i].maxLength = 1;
@@ -39,57 +67,94 @@ public class Registro : MonoBehaviour
         botonListo.RegisterCallback<ClickEvent>(ValidarPin);
     }
 
+    void OnDisable()
+    {
+        botonListo.UnregisterCallback<ClickEvent>(ValidarPin);
+    }
+
     private void OnPinChanged(int index, string value)
     {
         // avanzar al siguiente campo automaticamente
         if (!string.IsNullOrEmpty(value) && index < pinFields.Length - 1)
-        {
             pinFields[index + 1].Focus();
-        }
     }
 
     private void ValidarPin(ClickEvent evt)
     {
-        // armar el pin completo
+        // armar pin y enviar
         string pinCompleto = "";
         foreach (var field in pinFields)
             pinCompleto += field.value;
 
-        // buscar el pin en el array
-        bool pinEncontrado = false;
-        int indicAlumno = -1;
+        labelMensaje.text = "Validando...";
+        StartCoroutine(EnviarLogin(pinCompleto));
+    }
 
-        for (int i = 0; i < pinesValidos.Length; i++)
-        {
-            if (pinCompleto == pinesValidos[i])
-            {
-                pinEncontrado = true;
-                indicAlumno = i + 1;
-                break;
-            }
-        }
+    private IEnumerator EnviarLogin(string pin)
+    {
+        PinLogin datos = new PinLogin { pin = pin };
+        string json = JsonUtility.ToJson(datos);
 
-        if (pinEncontrado)
+        UnityWebRequest request = UnityWebRequest.Post(urlBase + "/login", json, "application/json");
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success || request.responseCode == 401)
         {
-            // si el alumno que entro es diferente al anterior, resetear progreso
-            int alumnoAnterior = PlayerPrefs.GetInt("idAlumnoAnterior", -1);
-            if (alumnoAnterior != indicAlumno)
+            RespuestaLogin respuesta = JsonUtility.FromJson<RespuestaLogin>(request.downloadHandler.text);
+
+            if (respuesta.exito)
             {
-                PlayerPrefs.DeleteKey("nivelCompletado");
-                PlayerPrefs.SetInt("idAlumnoAnterior", indicAlumno);
+                // guardar datos del alumno
+                PlayerPrefs.SetInt("idAlumno", respuesta.id_alumno);
+                PlayerPrefs.SetString("nombreAlumno", respuesta.nombre);
                 PlayerPrefs.Save();
+
+                if (respuesta.id_partida == 0)
+                    StartCoroutine(CrearPartida(respuesta.id_alumno));
+                else
+                {
+                    PlayerPrefs.SetInt("idPartida", respuesta.id_partida);
+                    PlayerPrefs.Save();
+                    SceneManager.LoadScene("MenuNiveles");
+                }
             }
-
-            // guardar id del alumno para usarlo despues en la BD
-            PlayerPrefs.SetInt("idAlumno", indicAlumno);
-            PlayerPrefs.Save();
-
-            SceneManager.LoadScene("MenuNiveles");
+            else
+            {
+                labelMensaje.text = respuesta.mensaje;
+            }
         }
         else
         {
-            // mostrar mensaje de error
-            labelMensaje.text = "PIN incorrecto, intentalo de nuevo";
+            labelMensaje.text = "Error de conexion: " + request.error;
         }
+
+        request.Dispose();
+    }
+
+    private IEnumerator CrearPartida(int idAlumno)
+    {
+        DatosPartida datos = new DatosPartida { id_alumno = idAlumno };
+        string json = JsonUtility.ToJson(datos);
+
+        UnityWebRequest request = UnityWebRequest.Post(urlBase + "/partida", json, "application/json");
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success || request.responseCode == 401)
+        {
+            RespuestaPartida respuesta = JsonUtility.FromJson<RespuestaPartida>(request.downloadHandler.text);
+
+            if (respuesta.exito)
+            {
+                PlayerPrefs.SetInt("idPartida", respuesta.id_partida);
+                PlayerPrefs.Save();
+                SceneManager.LoadScene("MenuNiveles");
+            }
+        }
+        else
+        {
+            labelMensaje.text = "Error al crear partida: " + request.error;
+        }
+
+        request.Dispose();
     }
 }

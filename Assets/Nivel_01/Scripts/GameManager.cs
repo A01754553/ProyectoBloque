@@ -1,40 +1,55 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class GameManager : MonoBehaviour
 {
-    // instancia global
     public static GameManager instance;
 
-    // configuracion del nivel
-    [SerializeField] private string[] silabas = { "MA", "ME", "MI", "MO", "MU" };
+    [SerializeField] private string[] silabas = { "A", "E", "I", "O", "U" };
+    [SerializeField] private int[] idPreguntas = { 1, 2, 3, 4, 5 };
     [SerializeField] private AudioClip[] audiosSilabas;
     [SerializeField] private AudioClip audioCorrecto;
     [SerializeField] private AudioClip audioIncorrecto;
 
-    // variables internas
     public int aciertos = 0;
     public int fallos = 0;
     private int silabaTurno = 0;
     private AudioSource audioSource;
-
-    // desaciertos por pregunta
     private int[] desaciertosPorPregunta;
+
+    // url base de la api
+    private string urlBase = "https://ampi8wp2ei.execute-api.us-east-1.amazonaws.com";
+
+    // estructuras de datos
+    public struct ResultadoPregunta
+    {
+        public int id_pregunta;
+        public int desaciertos;
+    }
+
+    public struct DatosResultado
+    {
+        public int id_partida;
+        public int id_nivel;
+        public ResultadoPregunta[] resultados;
+    }
+
+    public struct DatosFinalizarPartida
+    {
+        public int id_partida;
+    }
 
     void Awake()
     {
+        // inicializar instancia
         if (instance == null)
             instance = this;
     }
-
     void Start()
     {
-        // inicializar componentes
         audioSource = GetComponent<AudioSource>();
-
-        // crear array del mismo tamaño que silabas, todo en 0
         desaciertosPorPregunta = new int[silabas.Length];
-
         MostrarSilaba();
     }
 
@@ -54,12 +69,11 @@ public class GameManager : MonoBehaviour
             aciertos++;
             if (audioCorrecto != null)
                 audioSource.PlayOneShot(audioCorrecto);
-
             StartCoroutine(EsperarYMostrar());
         }
         else
         {
-            // respuesta incorrecta — sumar al total y a la pregunta actual
+            // respuesta incorrecta
             fallos++;
             desaciertosPorPregunta[silabaTurno]++;
             if (audioIncorrecto != null)
@@ -79,25 +93,69 @@ public class GameManager : MonoBehaviour
         {
             // calcular estrellas
             int estrellas;
-            if (fallos <= 1)
-                estrellas = 3;
-            else if (fallos <= 3)
-                estrellas = 2;
-            else
-                estrellas = 1;
+            if (fallos <= 1) estrellas = 3;
+            else if (fallos <= 3) estrellas = 2;
+            else estrellas = 1;
 
             HUDPesca.instance.MostrarEstrellas(estrellas);
 
-            // guardar progreso con playerprefs
+            // guardar progreso local y mandar a la bd
             int nivelActual = PlayerPrefs.GetInt("nivelActual", 1);
             PlayerPrefs.SetInt("nivelCompletado", nivelActual);
             PlayerPrefs.Save();
 
-            // debug para ver los desaciertos por pregunta
-            for (int i = 0; i < desaciertosPorPregunta.Length; i++)
-            {
-                Debug.Log("Silaba " + silabas[i] + ": " + desaciertosPorPregunta[i] + " desaciertos");
-            }
+            StartCoroutine(EnviarResultados(nivelActual));
         }
+    }
+
+    private IEnumerator EnviarResultados(int nivelActual)
+    {
+        // armar resultados por pregunta
+        ResultadoPregunta[] resultados = new ResultadoPregunta[silabas.Length];
+        for (int i = 0; i < silabas.Length; i++)
+        {
+            resultados[i] = new ResultadoPregunta
+            {
+                id_pregunta = idPreguntas[i],
+                desaciertos = desaciertosPorPregunta[i]
+            };
+        }
+
+        DatosResultado datos = new DatosResultado
+        {
+            id_partida = PlayerPrefs.GetInt("idPartida", 0),
+            id_nivel = nivelActual,
+            resultados = resultados
+        };
+
+        string json = JsonUtility.ToJson(datos);
+
+        UnityWebRequest request = UnityWebRequest.Post(urlBase + "/resultado", json, "application/json");
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success || request.responseCode == 401)
+        {
+            // si era el nivel 8, finalizar partida
+            if (nivelActual == 8)
+                StartCoroutine(FinalizarPartida());
+        }
+
+        request.Dispose();
+    }
+
+    private IEnumerator FinalizarPartida()
+    {
+        DatosFinalizarPartida datos = new DatosFinalizarPartida
+        {
+            id_partida = PlayerPrefs.GetInt("idPartida", 0)
+        };
+
+        string json = JsonUtility.ToJson(datos);
+
+        UnityWebRequest request = UnityWebRequest.Put(urlBase + "/partida/finalizar", json);
+        request.SetRequestHeader("Content-Type", "application/json");
+        yield return request.SendWebRequest();
+
+        request.Dispose();
     }
 }

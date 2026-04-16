@@ -8,41 +8,31 @@ public class MainMenuController : MonoBehaviour
     private Button _playButton;
     private AudioSource _audioSource;
 
-    private void Awake()
+    void Awake()
     {
-        // Referencias
         _document = GetComponent<UIDocument>();
         _audioSource = GetComponent<AudioSource>();
 
-        if (_document == null)
-        {
-            Debug.LogError("No se encontró UIDocument en el GameObject.");
-            return;
-        }
+        if (_document == null) return;
 
         _playButton = _document.rootVisualElement.Q<Button>("playButton");
 
-        if (_playButton == null)
-        {
-            Debug.LogError("No se encontró el botón 'playButton' en el UXML.");
-            return;
-        }
+        if (_playButton == null) return;
 
         _playButton.RegisterCallback<ClickEvent>(OnPlayButtonClick);
     }
 
+    void OnDisable()
+    {
+        if (_playButton != null)
+            _playButton.UnregisterCallback<ClickEvent>(OnPlayButtonClick);
+    }
+
     private void OnPlayButtonClick(ClickEvent evt)
     {
-        Debug.Log("¡Botón Jugar presionado!");
-
+        // reproducir audio y cargar siguiente escena
         if (_audioSource != null && _audioSource.clip != null)
-        {
             _audioSource.Play();
-        }
-        else
-        {
-            Debug.LogWarning("AudioSource o AudioClip no asignado.");
-        }
 
         Invoke(nameof(LoadNextScene), 1f);
     }

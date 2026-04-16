@@ -3039,6 +3039,7 @@ MonoBehaviour:
   - MIMO
   - MASA
   - PALO
+  idPreguntas: 290000002a0000002b0000002c0000002d0000002e0000002f00000030000000
   audiosSilabas:
   - {fileID: 8300000, guid: 8e16add826c314549b6026433f315b20, type: 3}
   - {fileID: 8300000, guid: 8a61310283251a741b18acae27ca473e, type: 3}
