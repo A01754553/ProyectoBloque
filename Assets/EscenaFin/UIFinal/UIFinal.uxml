@@ -1,3 +1,10 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/EscenaFin/UIFinal/MenuPrincipal.uss?fileID=7433441132597879392&amp;guid=655c4c6d2a5804951b9ae98ccf8579f3&amp;type=3#MenuPrincipal"/>
+    <ui:VisualElement name="MenuPrincipal" class="menu" style="flex-grow: 1;">
+        <ui:Label text="Menú Final" name="Titulo" class="titulo" style="color: rgb(0, 0, 0);"/>
+        <ui:VisualElement name="Botones" class="botones" style="flex-grow: 1; top: 412px; left: 210px; width: 1491px;">
+            <ui:Button text="" name="BotonPlayAgain" class="boton-juego" style="background-image: url(&quot;project://database/Assets/EscenaFin/Imagenes/VolverIniciarSesio%CC%81n.png?fileID=2800000&amp;guid=7cfe353a53684445496148edfa9d0f9d&amp;type=3#VolverIniciarSesión&quot;);"/>
+            <ui:Button text="" name="BotonSalir" class="boton-juego" style="background-image: url(&quot;project://database/Assets/EscenaFin/Imagenes/SalirJuego.png?fileID=2800000&amp;guid=3e7b0ae52347f41828b40191672580cb&amp;type=3#SalirJuego&quot;);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>
