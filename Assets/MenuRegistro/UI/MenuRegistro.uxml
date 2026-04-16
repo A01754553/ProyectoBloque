@@ -11,4 +11,5 @@
         <ui:TextField label="" placeholder-text="" name="Pin2" picking-mode="Position" style="position: absolute; font-size: 30px; top: 444px; left: 819px; height: 98px; width: 121px;"/>
         <ui:TextField label="" placeholder-text="" name="Pin1" picking-mode="Position" style="position: absolute; font-size: 30px; top: 444px; left: 649px; height: 98px; width: 121px;"/>
     </ui:VisualElement>
+    <ui:Label text="" name="LabelMensaje" style="font-size: 38px; align-self: center; align-content: auto; bottom: 300px; color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/MenuInicio/Fonts/FredokaOne-Regular.ttf?fileID=12800000&amp;guid=9dfd9a5f9c2644a468b5a7dfffbdc817&amp;type=3#FredokaOne-Regular&quot;);"/>
 </ui:UXML>

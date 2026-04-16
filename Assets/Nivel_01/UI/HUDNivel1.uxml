@@ -11,4 +11,10 @@
         <ui:Image name="Estrella_3" source="project://database/Assets/Nivel_01/Images/puntaje_3estrellas.png?fileID=2800000&amp;guid=cce9f63a743929148ae05ca2183e69b9&amp;type=3#puntaje_3estrellas" style="height: 681px; width: 980px; display: none;"/>
         <ui:Button text="Continuar" name="BotonContinuar" class="botones" style="height: 735px; width: 734px; top: 201px; left: 111px; display: none;"/>
     </ui:VisualElement>
+    <ui:Button text="" name="BotonPausa" class="boton-pausa"/>
+    <ui:VisualElement name="PanelPausa" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Nivel_01/Menu_Pausa/Orange_Box.png?fileID=2800000&amp;guid=aa5577581dba92745990fbd1afc17347&amp;type=3#Orange_Box&quot;); position: absolute; top: 191px; left: 652px; height: 690px; width: 619px; display: none; visibility: visible;">
+        <ui:Button text="" name="BotonReanudar" class="botones-pausa" style="background-image: url(&quot;project://database/Assets/Nivel_01/Menu_Pausa/Boton_reanudar.png?fileID=2800000&amp;guid=f8550649398d602428954f87c629cc32&amp;type=3#Boton_reanudar&quot;);"/>
+        <ui:Button text="" name="BotonReiniciar" class="botones-pausa" style="background-image: url(&quot;project://database/Assets/Nivel_01/Menu_Pausa/Boton_restart.png?fileID=2800000&amp;guid=8dc39ab5e6ea18244b0b7d0d2bced1f0&amp;type=3#Boton_restart&quot;);"/>
+        <ui:Button text="" name="BotonSalir" class="botones-pausa" style="background-image: url(&quot;project://database/Assets/Nivel_01/Menu_Pausa/Boton_salir.png?fileID=2800000&amp;guid=695f9d9648633514a9d0647512f69851&amp;type=3#Boton_salir&quot;);"/>
+    </ui:VisualElement>
 </ui:UXML>
