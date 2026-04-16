@@ -20,18 +20,15 @@
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
-    width: 15%;
-    height: 32%;
+    width: 17%;
+    height: 60%;
     background-color: rgb(255, 146, 73);
     -unity-font-style: bold;
     color: rgb(255, 249, 249);
     font-size: 400%;
 }
 
-.btnlocked {
-    background-color: rgb(106, 101, 101);
-    -unity-text-auto-size: none;
-}
+
 
 .btn:hover {
     scale: 1.1 1.1;
