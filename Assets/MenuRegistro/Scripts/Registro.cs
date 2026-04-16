@@ -22,18 +22,16 @@ public class Registro : MonoBehaviour
         pinFields[2] = root.Q<TextField>("Pin3");
         pinFields[3] = root.Q<TextField>("Pin4");
 
-        // Configurar cada campo
         for (int i = 0; i < pinFields.Length; i++)
         {
-            pinFields[i].maxLength = 1; // Solo un dígito
-            int index = i; // Capturar índice para el callback
+            pinFields[i].maxLength = 1;
+            int index = i;
             pinFields[i].RegisterValueChangedCallback(evt => OnPinChanged(index, evt.newValue));
         }
     }
 
     private void OnPinChanged(int index, string value)
     {
-        // Si se escribió un número, pasa al siguiente campo
         if (!string.IsNullOrEmpty(value) && index < pinFields.Length - 1)
         {
             pinFields[index + 1].Focus();
@@ -42,6 +40,14 @@ public class Registro : MonoBehaviour
 
     private void AbrirMenuNiveles(ClickEvent evt)
     {
+        string pinCompleto = "";
+        foreach (var field in pinFields)
+        {
+            pinCompleto += field.value;
+        }
+
+        Debug.Log("PIN ingresado: " + pinCompleto);
+
         SceneManager.LoadScene("MenuNiveles");
     }
 }
