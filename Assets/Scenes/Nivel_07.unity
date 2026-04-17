@@ -2877,11 +2877,12 @@ MonoBehaviour:
   - MAPA
   idPreguntas: 230000002400000025000000260000002700000028000000
   audiosSilabas:
-  - {fileID: 8300000, guid: 8e16add826c314549b6026433f315b20, type: 3}
-  - {fileID: 8300000, guid: 8a61310283251a741b18acae27ca473e, type: 3}
-  - {fileID: 8300000, guid: dd1500ed23f75394eba3010f6780e774, type: 3}
-  - {fileID: 8300000, guid: 8e53b78b2c6664e4683eb76475cf88ad, type: 3}
-  - {fileID: 8300000, guid: 2bc14890ed7ae9049a99b2c4b58eb266, type: 3}
+  - {fileID: 8300000, guid: 62e0ba3c5d941484b87ca06533e42270, type: 3}
+  - {fileID: 8300000, guid: 6043fb8e5bf13e84a8357a587a30b1f9, type: 3}
+  - {fileID: 8300000, guid: c9127400e7bee4849aab704a273e4ed7, type: 3}
+  - {fileID: 8300000, guid: 4de901e212b178d42bb3c2b538cfe21f, type: 3}
+  - {fileID: 8300000, guid: a30d9d20b58ed6d41b163e5451ce1241, type: 3}
+  - {fileID: 8300000, guid: 583ab743c3264bf4c9e152735ed719c1, type: 3}
   audioCorrecto: {fileID: 8300000, guid: 50fc8aff4729d9c4289b6f878cc08a25, type: 3}
   audioIncorrecto: {fileID: 8300000, guid: 0d09feb20617e474f9033d61afb463c5, type: 3}
   aciertos: 0

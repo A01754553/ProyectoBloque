@@ -2877,11 +2877,12 @@ MonoBehaviour:
   - LUNA
   idPreguntas: 1d0000001e0000001f000000200000002100000022000000
   audiosSilabas:
-  - {fileID: 8300000, guid: 8e16add826c314549b6026433f315b20, type: 3}
-  - {fileID: 8300000, guid: 8a61310283251a741b18acae27ca473e, type: 3}
-  - {fileID: 8300000, guid: dd1500ed23f75394eba3010f6780e774, type: 3}
-  - {fileID: 8300000, guid: 8e53b78b2c6664e4683eb76475cf88ad, type: 3}
-  - {fileID: 8300000, guid: 2bc14890ed7ae9049a99b2c4b58eb266, type: 3}
+  - {fileID: 8300000, guid: 28a4682dfa885bc4db95c97a665f6c02, type: 3}
+  - {fileID: 8300000, guid: 01d5b9b1f26695e44b59b44ac6b03dfa, type: 3}
+  - {fileID: 8300000, guid: 60388951ab46cd64aae88c5305c71e01, type: 3}
+  - {fileID: 8300000, guid: ab7ac1cbff5592948b12f50beb9237d3, type: 3}
+  - {fileID: 8300000, guid: 2d828653636c79c4793675bc793a2abe, type: 3}
+  - {fileID: 8300000, guid: effc2d150002a544db675bfdc8057f1b, type: 3}
   audioCorrecto: {fileID: 8300000, guid: 50fc8aff4729d9c4289b6f878cc08a25, type: 3}
   audioIncorrecto: {fileID: 8300000, guid: 0d09feb20617e474f9033d61afb463c5, type: 3}
   aciertos: 0
