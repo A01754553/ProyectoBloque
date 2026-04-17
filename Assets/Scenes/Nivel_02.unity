@@ -2847,11 +2847,11 @@ MonoBehaviour:
   - P
   idPreguntas: 060000000700000008000000090000000a000000
   audiosSilabas:
-  - {fileID: 8300000, guid: 8e16add826c314549b6026433f315b20, type: 3}
-  - {fileID: 8300000, guid: 8a61310283251a741b18acae27ca473e, type: 3}
-  - {fileID: 8300000, guid: dd1500ed23f75394eba3010f6780e774, type: 3}
-  - {fileID: 8300000, guid: 8e53b78b2c6664e4683eb76475cf88ad, type: 3}
-  - {fileID: 8300000, guid: 2bc14890ed7ae9049a99b2c4b58eb266, type: 3}
+  - {fileID: 8300000, guid: 630c7e48b02c5ab42b1d3197131a6009, type: 3}
+  - {fileID: 8300000, guid: a0a9ad6215a72ac4c8526275c9817da2, type: 3}
+  - {fileID: 8300000, guid: 06a1d3f30376fac47b063ee7b756afd3, type: 3}
+  - {fileID: 8300000, guid: c194adf305ac43f4fa1c2d3147b87376, type: 3}
+  - {fileID: 8300000, guid: 30b6401ecd4f87f44b9fc1063610e767, type: 3}
   audioCorrecto: {fileID: 8300000, guid: 50fc8aff4729d9c4289b6f878cc08a25, type: 3}
   audioIncorrecto: {fileID: 8300000, guid: 0d09feb20617e474f9033d61afb463c5, type: 3}
   aciertos: 0
