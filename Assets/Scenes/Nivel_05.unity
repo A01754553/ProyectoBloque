@@ -2940,11 +2940,12 @@ MonoBehaviour:
   - LA
   idPreguntas: 1700000018000000190000001a0000001b0000001c000000
   audiosSilabas:
-  - {fileID: 8300000, guid: 8e16add826c314549b6026433f315b20, type: 3}
-  - {fileID: 8300000, guid: 8a61310283251a741b18acae27ca473e, type: 3}
-  - {fileID: 8300000, guid: dd1500ed23f75394eba3010f6780e774, type: 3}
-  - {fileID: 8300000, guid: 8e53b78b2c6664e4683eb76475cf88ad, type: 3}
-  - {fileID: 8300000, guid: 2bc14890ed7ae9049a99b2c4b58eb266, type: 3}
+  - {fileID: 8300000, guid: dd502fcf351949a4dac9e45a1a2e438e, type: 3}
+  - {fileID: 8300000, guid: 153c7e5f5f1fca940a7cfc5c066c6d8b, type: 3}
+  - {fileID: 8300000, guid: 740c220e4acfdcf45939d2d5b6d10eb5, type: 3}
+  - {fileID: 8300000, guid: cdb0bb29a0366fe489a759bdcd26efdb, type: 3}
+  - {fileID: 8300000, guid: f2abd6d53f697cb46a9da6f0d974cbab, type: 3}
+  - {fileID: 8300000, guid: 19041301fa124784cb307ff147e1ef9b, type: 3}
   audioCorrecto: {fileID: 8300000, guid: 50fc8aff4729d9c4289b6f878cc08a25, type: 3}
   audioIncorrecto: {fileID: 8300000, guid: 0d09feb20617e474f9033d61afb463c5, type: 3}
   aciertos: 0
