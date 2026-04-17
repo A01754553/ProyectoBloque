@@ -3041,11 +3041,14 @@ MonoBehaviour:
   - PALO
   idPreguntas: 290000002a0000002b0000002c0000002d0000002e0000002f00000030000000
   audiosSilabas:
-  - {fileID: 8300000, guid: 8e16add826c314549b6026433f315b20, type: 3}
-  - {fileID: 8300000, guid: 8a61310283251a741b18acae27ca473e, type: 3}
-  - {fileID: 8300000, guid: dd1500ed23f75394eba3010f6780e774, type: 3}
-  - {fileID: 8300000, guid: 8e53b78b2c6664e4683eb76475cf88ad, type: 3}
-  - {fileID: 8300000, guid: 2bc14890ed7ae9049a99b2c4b58eb266, type: 3}
+  - {fileID: 8300000, guid: e64c3eff3a6d70842aa6182f6eddbaea, type: 3}
+  - {fileID: 8300000, guid: 4890aff84cde59e47aac4b5fbb457ad2, type: 3}
+  - {fileID: 8300000, guid: d35a9c4fc0dc5ff4a8e7d8e691f6bf32, type: 3}
+  - {fileID: 8300000, guid: e7cb1e331e4417f468b12f9c998a42d8, type: 3}
+  - {fileID: 8300000, guid: 6dece5ff690618641a37fee488373164, type: 3}
+  - {fileID: 8300000, guid: beb5e7cf60a34f04c8166164f4822d8e, type: 3}
+  - {fileID: 8300000, guid: 9deb17a9fa0f8d942b419bf71cd5d745, type: 3}
+  - {fileID: 8300000, guid: 74731c9f463abeb438732f071a690d2b, type: 3}
   audioCorrecto: {fileID: 8300000, guid: 50fc8aff4729d9c4289b6f878cc08a25, type: 3}
   audioIncorrecto: {fileID: 8300000, guid: 0d09feb20617e474f9033d61afb463c5, type: 3}
   aciertos: 0
