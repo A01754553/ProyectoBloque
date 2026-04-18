@@ -22,12 +22,14 @@ public class GameManager : MonoBehaviour
     private string urlBase = "https://ampi8wp2ei.execute-api.us-east-1.amazonaws.com";
 
     // estructuras de datos
+    [System.Serializable]
     public struct ResultadoPregunta
     {
         public int id_pregunta;
         public int desaciertos;
     }
 
+    [System.Serializable]
     public struct DatosResultado
     {
         public int id_partida;
@@ -119,6 +121,7 @@ public class GameManager : MonoBehaviour
                 id_pregunta = idPreguntas[i],
                 desaciertos = desaciertosPorPregunta[i]
             };
+
         }
 
         DatosResultado datos = new DatosResultado
@@ -129,6 +132,7 @@ public class GameManager : MonoBehaviour
         };
 
         string json = JsonUtility.ToJson(datos);
+
 
         UnityWebRequest request = UnityWebRequest.Post(urlBase + "/resultado", json, "application/json");
         yield return request.SendWebRequest();

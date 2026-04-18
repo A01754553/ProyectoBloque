@@ -848,7 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: T
+  silaba: PE
 --- !u!58 &368667800
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3645,7 +3645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: M
+  silaba: MI
 --- !u!58 &1160504145
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4207,7 +4207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: S
+  silaba: SA
 --- !u!1001 &1328438843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4977,7 +4977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: O
+  silaba: PA
 --- !u!1 &1471344378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8007862676013868147, guid: 4af2231b1bfb61f429a9aabf866233ee, type: 3}
@@ -5000,7 +5000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: L
+  silaba: ME
 --- !u!4 &1480091295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2998631548613261742, guid: 6c866c5eed16a4d409202b2e1f2e9b14, type: 3}
