@@ -4,10 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class HUDPesca : MonoBehaviour
 {
-    // instancia global
     public static HUDPesca instance;
 
-    // elementos de ui
     private Label labelSilaba;
     private VisualElement panelEstrellas;
     private VisualElement estrella1;
@@ -98,7 +96,12 @@ public class HUDPesca : MonoBehaviour
 
     private void CerrarPanel()
     {
-        SceneManager.LoadScene("MenuNiveles");
+        // si es el nivel 8 ir a la escena final, sino al menu de niveles
+        int nivelActual = PlayerPrefs.GetInt("nivelActual", 1);
+        if (nivelActual == 8)
+            SceneManager.LoadScene("EscenaFinal");
+        else
+            SceneManager.LoadScene("MenuNiveles");
     }
 
     private void AbrirPausa()
