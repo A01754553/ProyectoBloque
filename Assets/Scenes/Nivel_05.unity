@@ -561,7 +561,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BA
+  m_text: 'Ba
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -870,7 +872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: LA
+  silaba: La
 --- !u!58 &368667800
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2169,7 +2171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: BA
+  silaba: Ba
 --- !u!58 &903116547
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2897,12 +2899,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   silabas:
-  - PA
-  - BA
-  - MA
-  - TA
-  - DA
-  - LA
+  - Pa
+  - Ba
+  - Ma
+  - Ta
+  - Da
+  - La
   idPreguntas: 1700000018000000190000001a0000001b0000001c000000
   audiosSilabas:
   - {fileID: 8300000, guid: dd502fcf351949a4dac9e45a1a2e438e, type: 3}
@@ -3321,7 +3323,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TA
+  m_text: 'Ta
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -3630,7 +3634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: MA
+  silaba: Ma
 --- !u!58 &1160504145
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3953,7 +3957,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DA
+  m_text: 'Da
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -4363,7 +4369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: TA
+  silaba: Ta
 --- !u!1001 &1328438843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4995,7 +5001,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PA
+  m_text: 'Pa
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -5133,7 +5141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: PA
+  silaba: Pa
 --- !u!1001 &1390444527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5270,7 +5278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: DA
+  silaba: Da
 --- !u!4 &1480091295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2998631548613261742, guid: 6c866c5eed16a4d409202b2e1f2e9b14, type: 3}
@@ -5631,7 +5639,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LA
+  m_text: 'La
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -5836,7 +5846,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MA
+  m_text: 'Ma
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}

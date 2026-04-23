@@ -447,7 +447,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AS
+  m_text: 'As
+
 
 '
   m_isRightToLeft: 0
@@ -758,7 +759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AR
+  silaba: Ar
 --- !u!58 &368667800
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2228,7 +2229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AS
+  silaba: As
 --- !u!58 &903116547
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2948,12 +2949,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   silabas:
-  - AM
-  - AN
-  - AL
-  - AS
-  - AR
-  - EN
+  - Am
+  - An
+  - Al
+  - As
+  - Ar
+  - En
   idPreguntas: 110000001200000013000000140000001500000016000000
   audiosSilabas:
   - {fileID: 8300000, guid: 145881c42b2d244429304ef7c817d430, type: 3}
@@ -3372,7 +3373,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AL
+  m_text: 'Al
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -3681,7 +3684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: EN
+  silaba: En
 --- !u!58 &1160504145
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3890,7 +3893,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AN
+  m_text: 'An
+
 
 '
   m_isRightToLeft: 0
@@ -4302,7 +4306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AL
+  silaba: Al
 --- !u!1001 &1328438843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4934,7 +4938,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AM
+  m_text: 'Am
+
 
 '
   m_isRightToLeft: 0
@@ -5074,7 +5079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AM
+  silaba: Am
 --- !u!1 &1471344378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8007862676013868147, guid: 4af2231b1bfb61f429a9aabf866233ee, type: 3}
@@ -5097,7 +5102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: AN
+  silaba: An
 --- !u!4 &1480091295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2998631548613261742, guid: 6c866c5eed16a4d409202b2e1f2e9b14, type: 3}
@@ -5572,7 +5577,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AR
+  m_text: 'Ar
+
+
 
 '
   m_isRightToLeft: 0
@@ -5836,7 +5843,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'EN
+  m_text: 'En
+
 
 '
   m_isRightToLeft: 0
