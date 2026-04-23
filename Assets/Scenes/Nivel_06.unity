@@ -447,9 +447,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PATO
-
-'
+  m_text: Pato
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -815,7 +813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: LUNA
+  silaba: Luna
 --- !u!58 &368667800
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2114,7 +2112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: PATO
+  silaba: Pato
 --- !u!58 &903116547
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2834,12 +2832,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   silabas:
-  - MESA
-  - MISA
-  - PATO
-  - PATA
-  - LATA
-  - LUNA
+  - Mesa
+  - Misa
+  - Pato
+  - Pata
+  - Lata
+  - Luna
   idPreguntas: 1d0000001e0000001f000000200000002100000022000000
   audiosSilabas:
   - {fileID: 8300000, guid: 28a4682dfa885bc4db95c97a665f6c02, type: 3}
@@ -3315,9 +3313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'LATA
-
-'
+  m_text: Lata
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -3626,7 +3622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: MESA
+  silaba: Mesa
 --- !u!58 &1160504145
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3957,9 +3953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'MISA
-
-'
+  m_text: Misa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -4312,7 +4306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: LATA
+  silaba: Lata
 --- !u!1001 &1328438843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4944,9 +4938,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PATA
-
-'
+  m_text: Pata
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -5084,7 +5076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: PATA
+  silaba: Pata
 --- !u!1 &1471344378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8007862676013868147, guid: 4af2231b1bfb61f429a9aabf866233ee, type: 3}
@@ -5107,7 +5099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c059ed616670c49834ec3a3ae6e22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pez
-  silaba: MISA
+  silaba: Misa
 --- !u!4 &1480091295 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2998631548613261742, guid: 6c866c5eed16a4d409202b2e1f2e9b14, type: 3}
@@ -5525,9 +5517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'LUNA
-
-'
+  m_text: Luna
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
@@ -5732,9 +5722,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'MESA
-
-'
+  m_text: Mesa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
   m_sharedMaterial: {fileID: -1745165378375496652, guid: 26f24f4a7d5cced41b2bcdc7ea13139e, type: 2}
