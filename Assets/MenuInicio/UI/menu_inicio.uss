@@ -19,9 +19,14 @@
     background-color: rgba(255, 255, 255, 0);
     -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
     transition-duration: 0.35s;
+    color: rgb(27, 27, 27);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
 }
 
 .button:hover {
     scale: 1.1 1.1;
-    background-color: rgb(123, 237, 255);
+    background-color: rgba(123, 237, 255, 0);
 }
