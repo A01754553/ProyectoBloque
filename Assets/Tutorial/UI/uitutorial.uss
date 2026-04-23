@@ -1,3 +1,11 @@
 :root {
+}
 
+.boton {
+    transition-duration: 0.35s;
+    transition-timing-function: ease-in-out;
+}
+
+.boton:hover {
+    scale: 1.15 1.15;
 }
