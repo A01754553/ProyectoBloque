@@ -115,7 +115,7 @@ public class Registro : MonoBehaviour
                 {
                     PlayerPrefs.SetInt("idPartida", respuesta.id_partida);
                     PlayerPrefs.Save();
-                    SceneManager.LoadScene("MenuNiveles");
+                    SceneManager.LoadScene("Tutorial");
                 }
             }
             else
@@ -147,7 +147,7 @@ public class Registro : MonoBehaviour
             {
                 PlayerPrefs.SetInt("idPartida", respuesta.id_partida);
                 PlayerPrefs.Save();
-                SceneManager.LoadScene("MenuNiveles");
+                SceneManager.LoadScene("Tutorial");
             }
         }
         else
